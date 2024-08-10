@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  body{
+    background-color: hsl(0, 0%, 8%);
+  }
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card{
+    background-color: hsl(0, 0%, 12%);
+    display: block;
+    width: 320px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+  h2{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  p{
+    font-size: 14px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: hsl(0, 0%, 20%);
+  border-style: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+}
+img{
+  border-radius: 100%;
+  height: 85px;
+  width: 85px;
+  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 15px; 
+}
+#a1{
+  padding-left: 108px;
+  padding-right: 108px;
+}
+#a2{
+  padding-left: 78px;
+  padding-right: 78px;
+}
+#a3{
+  padding-left: 102px;
+  padding-right: 102px;
+}
+#a4{
+  padding-left: 108px;
+  padding-right: 108px;
+}
+#a5{
+  padding-left: 98px;
+  padding-right: 98px;
+  margin-bottom: 30px;
+}
+audio{
+  height:0;
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div class="pic">
+      <img src="./assets/images/me.jpg">
+    </div>
+    <div>
+      <h1>Okwuosa Chukwuemeka</h1>
+      <h2>Lagos, Nigeria</h2>
+      <p>"Front-end developer and avid reader."</p>
+    </div>
+    <div>
+      <a href="https://github.com/kwvxii" target="_blank"><button id="a1">Github</button></a><br>
+      <a href="https://www.frontendmentor.io/home" target="_blank"><button id="a2">Frontend Mentor</button></a><br>
+      <a href="https://www.linkedin.com/in/chukwuemeka-okwuosa-7911182a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank"><button id="a3">LinkedIn</button></a><br>
+      <a href="https://www.x.com/laughter314" target="_blank"><button id="a4">Twitter</button></a><br>
+      <a href="https://www.instagram.com/heyy.emeka/profilecard/?igsh=YjJmOXlnY21kaTBy" target="_blank"><button id="a5">Instagram</button></a>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/kwvxii" target="_blank">Okwuosa Chukwuemeka</a>.
+  </div>
+  <audio controls autoplay loop>
+    <source src="./assets/images/ludo.mp3" type="audio/mp3">
+  </audio>
+</div>
+
+</body>
+</html>
